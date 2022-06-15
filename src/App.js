@@ -15,7 +15,10 @@ export default function App() {
 
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
+      <h1>
+        in this page State lifting & createContext() and useState() Hooks
+        example
+      </h1>
       <ChildOne fname={nameDetails} />
       <LastNameContext.Provider value={lname}>
         <ChildTwo />
