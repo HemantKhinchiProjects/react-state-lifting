@@ -8,7 +8,7 @@ const LastNameContext = createContext();
 export default function App() {
   const [lname, setLname] = useState();
   const nameDetails = (name) => {
-    console.log(name);
+    //console.log(name);
     setLname(name[1]);
     return name[0];
   };
