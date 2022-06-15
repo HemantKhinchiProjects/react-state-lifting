@@ -1,8 +1,9 @@
-import React from 'react';
-import App from '../App';
-import ChildOne from './components/Child-1';
+import React, { useContext } from 'react';
+import { LastNameContext } from '../App';
+
 const ChildTwo = (props) => {
-  //console.log(props.lname[0]);
-  return <div>Hello What is your name {props.lname} </div>;
+  const lname = useContext(LastNameContext);
+  
+  return <div>Child 2 last name {lname} </div>;
 };
 export default ChildTwo;

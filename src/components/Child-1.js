@@ -3,7 +3,7 @@ const ChildOne = (props) => {
   const name = ['Hemant', 'khinchi'];
   return (
     <div>
-      <p>My name is {props.fname(name)}</p>
+      <p>Child 1 {props.fname(name)}</p>
     </div>
   );
 };
